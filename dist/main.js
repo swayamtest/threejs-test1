@@ -3,9 +3,6 @@ import * as THREE from 'https://unpkg.com/three@0.136.0/build/three.module.js';
 /*Import OrbitControls class from CDN namespace*/
 import { OrbitControls } from 'https://cdn.skypack.dev/three@0.132.2/examples/jsm/controls/OrbitControls.js';
 
-/* import * as OrbitControls from 'https://unpkg.com/three@0.136.0/examples/js/controls/OrbitControls.js';
-from build*/
-
 /*Initialize Scene, Camera (with size variable) and Renderer*/
 const sizes = {width: window.innerWidth, height: window.innerHeight}
 
